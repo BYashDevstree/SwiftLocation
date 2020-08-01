@@ -139,7 +139,7 @@ public class LocationManager: NSObject {
     internal private(set) var queueHeadingRequests: HeadingRequestSet
     
     /// `CLLocationManager` instance used to receive events from GPS.
-    private let manager = CLLocationManager()
+     let manager = CLLocationManager()
     
     /// Last received location.
     public var lastLocation: CLLocation?
